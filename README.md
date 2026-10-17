@@ -11,9 +11,6 @@ Para combatir el alto acoplamiento y las "Clases Dios" del código heredado, hem
 Trabajamos bajo un modelo ágil de **GitFlow** con protección de ramas y reglas estrictas de integración:
 * `main`: Entorno de **Producción**. Código 100% estable. Solo admite fusiones desde `release/` o `hotfix/`.
 * `develop`: Entorno de **Integración/QA**. Refleja el estado del próximo lanzamiento.
-* `feature/<ticket>-<descripcion>`: Ramas de trabajo diario (ej. `feature/SM-104-facturacion`). Nacen y mueren en `develop` vía *Pull Request*.
-* `release/vX.Y.Z`: Congelamiento de código para pruebas finales antes de pasar a producción.
-* `hotfix/<ticket>-<descripcion>`: Correcciones urgentes directo en producción (nacen de `main`).
 * **[Equipo Consultor]**
 Este plan de refactorización fue diseñado y ejecutado por:
 * **[Danna Salcedo]** - Arquitecto de Procesos y 
